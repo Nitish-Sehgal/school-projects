@@ -1,0 +1,10 @@
+str=input('enter a charecter:')
+print(str)
+if str.isupper():
+    print("uppercase")
+elif str.islower():
+    print ("lowercase")
+elif str.isdigit():
+    print ("digit")
+else:
+    print ("special character")

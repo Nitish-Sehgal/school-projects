@@ -1,0 +1,30 @@
+def main(a,b):
+    sum(a,b)
+    sub(a,b)
+    mul(a,b)
+    div(a,b)
+    sq(a)
+    sq_root(a)
+
+a=int(input('n1:'))
+b=int(input('n2:'))
+def sum(a,b):
+    s=a+b
+    return s
+def sub(a,b):
+    d=a-b
+    return d
+def mul(a,b):
+    m=a*b
+    return m
+def div(a,b):
+    dd=a+b
+    return dd
+def sq(a):
+    ss=a*2
+    return ss
+def sq_root(a):
+    sss=a*1/2
+    return sss
+
+print(main(a,b))

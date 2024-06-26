@@ -1,0 +1,8 @@
+
+original_tuple =(bob,natasha,matt,brandon,kakashi,itachi,shisui,obito,cowboy beepboop,evangilion,adam) 
+
+# Remove the last element by creating a new tuple
+new_tuple = original_tuple[::-1]
+
+# Print the new tuple
+print(new_tuple)

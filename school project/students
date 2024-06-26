@@ -1,0 +1,22 @@
+# Creating an empty dictionary
+
+students = {}
+n=int(input('no of students:'))
+
+# Taking input from user for 5 students
+
+for i in range(1, n+1):
+    roll_no = input("Enter roll no of student " + str(i) + ": ")
+    name = input("Enter name of student " + str(i) + ": ")
+    class_name = input("Enter class of student " + str(i) + ": ")
+    marks = int(input("Enter marks of student " + str(i) + ": "))
+
+    # Adding the details of each student to the dictionary
+    students= {'rollno':roll_no,"name": name, "class": class_name, "marks": marks}
+
+
+# Printing the dictionary
+
+for students in students:
+    print(students)
+

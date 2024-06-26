@@ -1,0 +1,50 @@
+def main():   
+    def f():
+        print('hellow')
+
+    f()
+    def sum(x,y):
+        s=x+y
+        return s
+
+    print(sum(1,2))
+
+    def sub(a,b):
+        d=a-b
+        print(d)
+
+    sub(2,1)
+
+    def uga_booga():
+        return ('i wanna oga booga')
+
+
+    uga_booga()#wont give a value
+    print(uga_booga())#will give value
+
+
+    def greet():
+        print('hellozz')
+
+    a=greet()
+    print(a)
+
+
+    def fu():
+        return 'fu'
+
+    c=fu()
+    print(c)
+
+    a=input('enter name:')
+    def hello(a='nihet'):
+        return 'hello',a
+
+    print(hello(a))
+    print(hello())
+
+
+
+
+
+main()

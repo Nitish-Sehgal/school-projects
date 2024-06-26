@@ -1,0 +1,16 @@
+print('method 1')
+a=input('value1')
+b=input('value2')
+print(a,b)      
+a=b
+b=a
+print(a,b)
+print('method 2')
+n=input('value3')
+m=input('value4')
+print(n,m)
+c=0
+c=m
+m=n
+n=c
+print(n,m)

@@ -1,0 +1,20 @@
+def generate_fibonacci(n):
+    # Initialize the first two Fibonacci numbers
+    fib_series = [0, 1]
+
+    # Generate the Fibonacci sequence up to the nth term using a loop
+    for i in range(2, n):
+        next_num = fib_series[-1] + fib_series[-2]
+        fib_series.append(next_num)
+
+    return fib_series
+
+# Input the number of terms in the Fibonacci series
+n = int(input("Enter the number of Fibonacci terms to generate: "))
+
+if n <= 0:
+    print("Please enter a positive integer.")
+else:
+    fibonacci_series = generate_fibonacci(n)
+    print("Fibonacci Series:")
+    print(fibonacci_series)

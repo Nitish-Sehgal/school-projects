@@ -1,0 +1,11 @@
+n=int(input('n='))
+digit=0
+temp=0
+rev=0
+temp=n
+while temp>0:
+    digit=temp%10
+    rev=(rev*10)+digit
+    temp//=10
+    print(rev)
+    
